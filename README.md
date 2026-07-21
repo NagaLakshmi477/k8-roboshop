@@ -36,6 +36,7 @@ cl+c
 - to check logs we installed some tools using docker file
 docker build -t lakshmi1092/debug:v1 .
 docker push  lakshmi1092/debug:v1
+--run manifest file for debug
 
 
 
