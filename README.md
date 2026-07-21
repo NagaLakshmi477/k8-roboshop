@@ -13,6 +13,8 @@ mongodb
 - pod is a subset of deployement
 - If we create a deployement we will have an adavantage
     i.e : we can automaticcaly get the replica set. if pod delete it will automatically creates new one 
-- 
+kubectl apply -f manifest.yaml
+kubectl get pods
+
 
 
