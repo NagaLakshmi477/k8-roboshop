@@ -15,6 +15,21 @@ mongodb
     i.e : we can automaticcaly get the replica set. if pod delete it will automatically creates new one 
 kubectl apply -f manifest.yaml
 kubectl get pods
+alias ka="kubectl apply -f manifest.yaml"
+alias kp="kubectl get pods"
+kp -n roboshop --> beacuse we mentioned namespace as roboshop in mainfest file
+to avios this everytime giving " -n roboshop" we need to install tools
+kubens:
+-------
+sudo git clone https://github.com/ahmetb/kubectx.git /opt/kubectx
+sudo ln -s /opt/kubectx/kubens /usr/local/bin/kubens
+k9s:
+----
+curl -sS https://webinstall.dev/k9s | bash
+ 
+shift+ : --> you can type
+esc
+cl+c
 
 
 
