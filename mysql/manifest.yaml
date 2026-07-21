@@ -36,6 +36,9 @@ spec:
       containers:
       - name: mysql
         image: lakshmi1092/mysql:v1
+        envFrom:
+        - secretRef:
+            name: mysql
 ---
 apiVersion: v1 
 kind: Service
