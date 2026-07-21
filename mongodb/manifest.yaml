@@ -9,9 +9,10 @@ metadata:
 spec:
   replicas: 1
   selector:
-    component: mongodb
-    project: roboshop
-    tier: database
+    matchLabels:
+      component: mongodb
+      project: roboshop
+      tier: database
   template:
     metadata:
       labels:
