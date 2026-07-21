@@ -38,5 +38,4 @@ docker build -t lakshmi1092/debug:v1 .
 docker push  lakshmi1092/debug:v1
 --run manifest file for debug
 
-
-
+In frontend we use 80 bu some ports are resrved ink8s so we need to change te ports based onthe rangs
