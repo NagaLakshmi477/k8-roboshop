@@ -38,7 +38,7 @@ spec:
       - name: catalogue
         image: lakshmi1092/catalogue:v1
         envFrom:
-        -configMapRef:
+        - configMapRef:
             name: catalogue
 ---
 apiVersion: v1 
