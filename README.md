@@ -31,5 +31,8 @@ shift+ : --> you can type
 esc
 cl+c
 
+- we need to provide the env variable to catalogue we can ConfigMap
+- we need to refer the config map that we have created using envForm
+
 
 
