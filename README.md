@@ -33,6 +33,9 @@ cl+c
 
 - we need to provide the env variable to catalogue we can ConfigMap
 - we need to refer the config map that we have created using envForm
+- to check logs we installed some tools using docker file
+docker build -t lakshmi1092/debug:v1 .
+docker push  lakshmi1092/debug:v1
 
 
 
