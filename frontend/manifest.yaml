@@ -37,7 +37,7 @@ metadata:
         project: roboshop
         tier: web
 spec:
-  type: LoadBlancer
+  type: LoadBalancer
   selector:
       component: frontend
       project: roboshop
